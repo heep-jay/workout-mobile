@@ -1,7 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, View, FlatList } from "react-native";
-import ExerciseListItem from "./src/components/ExerciseListItem";
-import exercises from "./assets/data/exercises.json";
+import ExerciseListItem from "../../components/ExerciseListItem";
+import exercises from "../../assets/data/exercises.json";
 // import { FlatList } from "react-native-web";
 
 export default function App() {
@@ -22,10 +22,9 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#f2f2f2",
+    backgroundColor: "ghostwhite",
     // alignItems: "center",
     justifyContent: "center",
     padding: 15,
-    paddingTop: 70,
   },
 });
